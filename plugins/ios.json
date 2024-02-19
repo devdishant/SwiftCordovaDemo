@@ -1,0 +1,15 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.dishant.plugins.checkInput": {
+      "PACKAGE_NAME": "com.dishant.swiftcordovademo"
+    }
+  },
+  "dependent_plugins": {}
+}

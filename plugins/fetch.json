@@ -1,0 +1,10 @@
+{
+  "com.dishant.plugins.checkInput": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/devdishant/myfirst.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

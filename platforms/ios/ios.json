@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"CheckInputPlugin\"><param name=\"ios-package\" value=\"CheckInputPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "com.dishant.plugins.checkInput": {
+      "PACKAGE_NAME": "com.dishant.swiftcordovademo"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "com.dishant.plugins.checkInput.CheckInputPlugin",
+      "file": "plugins/com.dishant.plugins.checkInput/www/CheckInputPlugin.js",
+      "pluginId": "com.dishant.plugins.checkInput",
+      "clobbers": [
+        "checkInput"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "com.dishant.plugins.checkInput": "1.0.0"
+  }
+}
